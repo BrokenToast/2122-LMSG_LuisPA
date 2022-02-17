@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 nov. 2021, 9:29:19
+    Author     : daw1
+*/
+div{
+    border: solid black 10px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    display: inline-block;
+}
+div:nth-child(1){
+    background-image:url("punto.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top left;
+}
+div:nth-child(2){
+    background-image:url("punto.png"), url("punto.png");
+    background-repeat: no-repeat;
+    background-size: 50%,50%;
+    background-position: top left,right bottom;
+}
+div:nth-child(3){
+    background-image:url("punto.png"), url("punto.png"), url("punto.png");
+    background-repeat: no-repeat;
+    background-size: 50%,50%,50%;
+    background-position: top left,right bottom,center;
+}
+div:nth-child(4){
+    background-image:url("punto.png"), url("punto.png"), url("punto.png"),url("punto.png");
+    background-repeat: no-repeat;
+    background-size: 50%,50%,50%,50%;
+    background-position: top left,top right, left bottom, right bottom;
+}
+div:nth-child(5){
+    background-image:url("punto.png"), url("punto.png"), url("punto.png"),url("punto.png"),url("punto.png");
+    background-repeat: no-repeat;
+    background-size: 50%,50%,50%,50%,50%;
+    background-position: top left,top right, left bottom, right bottom,center;
+}
+div:nth-child(6){
+    background-image:url("punto.png"), url("punto.png"), url("punto.png"),url("punto.png"),url("punto.png"),url("punto.png");
+    background-repeat: no-repeat;
+    background-size: 50%,50%,50%,50%,50%;
+    background-position: top left, top right, center left, center right , bottom left , bottom right;
+}

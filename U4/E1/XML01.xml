@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email[
+    <!ELEMENT email (remitente , destinatario , fecha , asunto , mensaje , fichero*)>
+    <!ATTLIST email xmlns:xsi CDATA #IMPLIED
+                             xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+    <!ELEMENT remitente (#PCDATA)>
+    <!ELEMENT destinatario (nombre+)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT asunto (#PCDATA)>
+    <!ELEMENT mensaje (#PCDATA)>
+    <!ELEMENT fichero (#PCDATA)>
+    <!ATTLIST fichero type CDATA #REQUIRED>
+]>
+<email xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='schema01.xsd'>
+    <remitente>luis.perast@edcua.jcyl.es</remitente>
+    <destinatario>
+        <nombre>erpepe@gmail.com</nombre>
+        <nombre>apa@gmail.com</nombre>
+        <nombre>manuel@hotmail.com</nombre>
+    </destinatario>
+    <fecha>2022-01-20</fecha>
+    <asunto>Multa</asunto>
+    <mensaje>
+        Deven pagar una multa de 300€ mas inpuestos.
+    </mensaje>
+    <fichero type="application/pdf">
+        multa.pdf
+    </fichero>
+    <fichero type="application/pdf">
+        inpuestos.pdf
+    </fichero>
+</email>

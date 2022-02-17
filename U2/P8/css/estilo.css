@@ -1,0 +1,129 @@
+/* 
+    Created on : 
+    File        : estilo.css
+    Description : 
+*/
+@font-face{
+    font-family:Goldman Bold, cursive;
+    src: utl('./font/Goldman-Bold.ttf');
+}
+@font-face{
+    font-family:'GoldmanRegular';
+    src: utl('./font/GoldmanRegular.ttf');
+}
+*{
+    font-family:Goldman Regular, cursive;
+}
+body{
+    background-image: url(../images/Le_petit_prince.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    font-family:'GoldmanRegular';
+}
+main,header{
+    margin-left: 200px;
+    margin-right: 300px;
+    width: 1024px;
+    display:inline-block;
+}
+p{
+    background-color: #52D75B;
+    color: white;
+    padding-left: 6px;
+}
+p>span{
+    color:red;
+}
+hr{
+    color: red;
+    border: solid red 2px ;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+h1{
+    color: rgb(100, 148, 28);
+    text-decoration-style: wavy;
+    text-decoration-color: orangered;
+    text-decoration: underline wavy orangered;
+}
+.lista1{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+.lista1>li{
+    border-top: solid red 1px;
+    border-left: solid red 1px;
+    border-right: solid red 1px;
+}
+.lista1>li:last-child{
+    border-bottom: solid red 1px;
+}
+
+.lista2{
+    list-style-type: square;
+    list-style-position: outside;
+}
+.lista2>li{
+    border-top: solid red 1px;
+    border-left: solid red 1px;
+    border-right: solid red 1px;
+}
+.lista2>li:last-child{
+    border-bottom: solid red 1px;
+}
+.lista3{
+    list-style: circle inside url('../images/sqpurple.png');
+}
+.lista3>li{
+    border-top: solid red 1px;
+    border-left: solid red 1px;
+    border-right: solid red 1px;
+}
+.lista3>li:last-child{
+    border-bottom: solid red 1px;
+}
+
+.lista4{
+    background-color: red;
+    padding: 10px 30px;
+    list-style-type: none;
+}
+.lista4>li{
+    border-top: solid red 1px;
+    border-left: solid red 1px;
+    border-right: solid red 1px;
+}
+.lista4>li:last-child{
+    border-bottom: solid red 1px;
+}
+.lista4>li{
+    background-color: #FF5A5A;
+    color: red;
+}
+.lista4>li:before{
+    content: "#";
+    color: #FF5A5A;
+    display: inline-block;
+    width: 1em;
+    margin-left:-1em;
+}
+.lista5{
+    background-color: red;
+    list-style-type: none;
+    border-left: solid #7c2525 6px;
+}
+.lista5>li{
+    margin-left: -2em;
+    color:#FF5A5A;
+}
+.lista6{
+    color:red;
+}
+.lista6>li{
+    border-top: dotted red 3px;
+    border-left: dotted red 3px;
+    border-right: dotted red 3px;
+}
+.lista6>li:last-child{
+    border-bottom: dotted red 3px;
+}

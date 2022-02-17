@@ -1,0 +1,176 @@
+body{background-color: gray;}
+#cuerpo{
+    width: 1024px;
+    margin: auto;
+    background-color: white;
+}
+* {
+        font-family: sans;
+}
+/*Encabezado*/
+#cabeza{
+    background-color: green;
+}
+#cabeza h1{
+    position: absolute;
+    left: 16%;
+    bottom:95%;
+    color:white;
+    text-transform: uppercase;
+   font-size: 20px;
+}
+#cabeza img{
+    height: 50px;
+    width: 50px;
+}
+#cabeza p{
+    font-family: sans;
+    font-size: 10px;
+    color:white;
+}
+/*pie de pagina*/
+
+#pie{
+    text-align: center;
+    background-color: green;
+    padding: 10px;
+    font-style: italic;
+}
+/*lista*/
+li{
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px  20px;
+    font-family: sans;
+    color:white;
+}
+ul{
+    background-color: green;
+    height: 50px;
+    margin: 10px 0px;
+}
+/*texto*/
+b,i,p{
+    color: white;
+}
+b,.sub,h3,h2,h1{
+    font-weight:bold ;
+}
+i{
+    border-bottom:  dotted white 2px;
+    font-style: italic;
+}
+/* Titulos*/
+h3{
+    position: relative;
+    left: 3%;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+/*Tablas*/
+table{
+    width: 80%;
+    margin: 10px auto;
+    
+}
+td,th{
+    text-align: center;
+    vertical-align: middle;
+    color:white;
+    width: 30px;
+}
+table,th,td{
+    border: 1px white solid;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+/*asignaturas*/
+.LM{
+    background-color: #FF4D4D;
+}
+.ED{
+    background-color: #FF4DA6;
+}
+.BBDD{
+    background-color: #4D65FF;
+}
+.prog{
+    background-color: #4DFAFF;
+}
+.FOL{
+    background-color: #4DFF94;
+}
+.SI{
+    background-color: #E5A463 ;
+}
+
+
+/*Horarios*/
+article{
+    margin: 20px auto;
+    width: 90%
+}
+article h3{
+    border: 1px solid white;
+    width: 92%;
+    color: white;
+    padding: 3px;
+}
+article footer{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 10px;
+}
+#Daw1{
+    background: gray;
+    padding: 10px;
+}
+
+#LMSGI{
+    background-color: #D10303;
+    padding: 10px;
+}
+
+#DB{
+    background-color: #0021F9;
+    padding: 10px;
+}
+
+#PRO{
+    background-color: #00A5B7;
+    padding: 10px;
+}
+
+#ED{
+    background-color: #DA006D;
+    padding: 10px;
+}
+
+#SI{
+    background-color: #C16406;
+    padding: 10px;
+}
+
+#FOL{
+    background-color: #00B94A;
+    padding: 10px;
+}
+
+/*ultimas tablas*/
+caption{
+        color: #00C086;
+        text-transform: uppercase;
+        font-style: italic;
+        caption-side: bottom;
+}
+#iniciales table{
+    background-color: #00C086;
+    text-transform: uppercase;
+    font-style: italic;
+}
+#profesores table{
+    background-color: #00C086;
+
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<grupo xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='schema07.xsd'>
+    <estudiante id="v1">
+        pepe
+    </estudiante>
+    <estudiante id="v2" codtutor="v1">
+        Ermanolo
+    </estudiante>
+    <estudiante id="v3" codtutor="v1 v2">
+        paco
+    </estudiante>
+</grupo>
+

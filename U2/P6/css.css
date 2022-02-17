@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 nov. 2021, 9:29:19
+    Author     : daw1
+*/
+div>div{
+    border: solid black 10px;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    display: inline-block;
+    background-color: greenyellow;
+}
+div>div:hover{
+    background-color: red;
+}
+div{
+   text-align: center 
+       
+}
+div:nth-child(1)>div{
+    background-image:url("punto.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    
+}
+div:nth-child(2)>div{
+    background-image:url("punto.png"), url("punto.png");
+    background-repeat: no-repeat;
+    background-size: 50%,50%;
+    background-position: top left,right bottom;
+}
+div:nth-child(3)>div{
+    background-image:url("punto.png"), url("punto.png"), url("punto.png");
+    background-repeat: no-repeat;
+    background-size: 50%,50%,50%;
+    background-position: top left,right bottom,center;
+}
+div:nth-child(4)>div{
+    background-image:url("punto.png"), url("punto.png"), url("punto.png"),url("punto.png");
+    background-repeat: no-repeat;
+    background-size: 50%,50%,50%,50%;
+    background-position: top left,top right, left bottom, right bottom;
+}
+div:nth-child(5)>div{
+    background-image:url("punto.png"), url("punto.png"), url("punto.png"),url("punto.png"),url("punto.png");
+    background-repeat: no-repeat;
+    background-size: 50%,50%,50%,50%,50%;
+    background-position: top left,top right, left bottom, right bottom,center;
+}
+div:nth-child(6)>div{
+    background-image:url("punto.png"), url("punto.png"), url("punto.png"),url("punto.png"),url("punto.png"),url("punto.png");
+    background-repeat: no-repeat;
+    background-size: 50%,50%,50%,50%,50%;
+    background-position: top left, top right, center left, center right , bottom left , bottom right;
+}

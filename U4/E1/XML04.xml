@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+<!DOCTYPE curricu[
+    <!ELEMENT curricu (nombre, apellidos, año,residencia,datos)>
+    <!ATTLIST curricu xmlns:xsi CDATA #IMPLIED
+                        xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT año (#PCDATA)>
+    <!ELEMENT residencia (ciudad,pais)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT datos (telefonos,email*,perfil,descripcion,competencias?,formaciones?,experiencias?)>
+    <!ELEMENT telefonos (movil*,fijo)>
+    <!ELEMENT movil (#PCDATA)>
+    <!ELEMENT fijo (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT perfil (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT competencias (competencia+)>
+    <!ELEMENT competencia EMPTY>
+    <!ELEMENT nivel (#PCDATA)>
+    <!ELEMENT formaciones (formacion+)>
+    <!ELEMENT formacion EMPTY>
+        <!ATTLIST formacion nombre CDATA #REQUIRED
+                                    centro CDATA #REQUIRED
+                                    year CDATA #REQUIRED >
+    <!ELEMENT centro (#PCDATA)>
+    <!ELEMENT experiencias (experiencia+)>
+    <!ELEMENT experiencia (puesto,empresa,año,añofin?)>
+    <!ELEMENT puesto (#PCDATA)>
+    <!ELEMENT empresa (#PCDATA)>
+    <!ELEMENT añofin (#PCDATA)>
+    <!ATTLIST competencia nivel (bajo|medio|alto)  "medio"
+                                         nombre CDATA #REQUIRED>
+]>
+-->
+<curricu xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='schema04.xsd'>
+    <nombre>Luis</nombre>
+    <apellidos>Pérez Astorga</apellidos>
+    <year>2002</year>
+    <residencia>
+        <ciudad>Benavente</ciudad>
+        <pais>Reino de Leon</pais>
+    </residencia>
+    <datos>
+        <telefonos>
+            <movil>674770806</movil>
+            <movil>789456123</movil>
+            <fijo>978621453</fijo>
+        </telefonos>
+        <email>luis.perast@edcua.jcyl.es</email>
+        <email>luispatb@gmail.com</email>
+        <perfil>Luis Perez Astorga</perfil>
+        <descripcion>Hola que tal </descripcion>
+        <competencias>
+            <competencia nombre="Organizado" nivel="alto"/>
+            <competencia nombre="Pega Etiquetas" nivel="medio"/>
+            <competencia nombre="Programacion Java" />
+        </competencias>   
+        <formaciones>
+            <formacion nombre="Sistemas microinformaticos y redes" centro="IES Losa Sauces" year="2021"/>
+            <formacion nombre="Desarroyo de aplicaciones web" centro="IES Losa Sauces" year="2023"/>
+        </formaciones>
+        <experiencias>
+            <experiencia>
+                <puesto>Administrador de Sistemas</puesto>
+                <empresa>3dLac</empresa>
+                <año>2021</año>
+                <añofin>2021</añofin>
+            </experiencia>
+        </experiencias>     
+    </datos>
+</curricu>

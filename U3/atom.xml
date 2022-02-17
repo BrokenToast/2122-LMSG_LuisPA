@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title> El pais</title>
+    <id>https://elpais.com/</id>
+    <updated>2022-01-17T09:00:00Z</updated>
+    <link href="https://elpais.com/" rel="self"/>
+    <author>
+        <name>El pais</name>
+        <email>elpais.esp@elpais.es</email>
+    </author>
+    <entry>
+        <id>https://elpais.com/sociedad/2022-01-17/pandemia-o-endemia-europa-empieza-a-plantearse-como-convivir-con-el-coronavirus.html</id>
+        <title>¿Pandemia o endemia? Europa empieza a plantearse cómo convivir con el coronavirus</title>
+        <updated>2022-01-17T09:00:00Z</updated>
+    </entry>
+</feed>

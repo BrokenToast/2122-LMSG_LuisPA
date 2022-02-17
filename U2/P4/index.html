@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Galería del macarrón">
+    <meta name="author" content="KingToast">
+    <meta name="Keywords" content="Imagenes,recetas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" type="image/x-icon" href="../1636050362.ico">
+    <title>HTML 04 Luis Pérez Astorga</title>
+    <style>
+        img{
+            width: 300px;
+            height: 400px;
+        }
+        img{
+            border:10px outset orange;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-image:url(./media/imagenes/the-simpsons-macaroni.gif);
+        }
+        header{
+            color: blue;
+            border:10px outset black;
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galería del macarrón</h1>
+    </header>
+    <main>
+        <article>
+            <header>
+                <h2>Imagenes deliciosas de macarrones</h2>
+            </header>
+            <p id="imagenes">
+                <img src="./media/imagenes/MaQue1.jpeg" alt="macarrones con queso">
+                <img src="./media/imagenes/MaQue2.JPG" alt="macarrones con queso">
+                <img src="./media/imagenes/MaQue3.JPG" alt="macarrones con queso">
+            </p>
+        </article>
+        <article>
+            <header><h2>Receta De macarrones con queso</h2></header>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/PyE3hSnezYY" title="YouTube video player"></iframe>
+        </article>
+        <br>
+        <article>
+            <header>
+                <h2>Receta de macarrones en formato podcast</h2>
+            </header>
+            <p>
+                <img src="./media/imagenes/chef.gif" alt="macarrones con queso">
+                No esto
+                <img src="./media/imagenes/ChefFail.gif" alt="Esto no hay que hacelo">
+            </p>
+            <audio controls autoplay>
+                <source src="./media/audio/receta.mp3" type="audio/mpeg">
+            </audio>
+        </article>
+        <article>
+            <header><h2> Receta de macarrones delchicote</h2></header>
+            <video controls autoplay>
+                <source src="./media/video/chicote.mp4" type="video/mp4">
+            </video>
+        </article>
+    </main>
+</body>
+</html>

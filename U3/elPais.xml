@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Fecha: 13/01/2022.
+Descripbcion Noticas del pais.
+Documento: RSS
+-->
+<rss version="2.0">
+    <channel>
+        <title>El Pais-Ultimas Noticias</title>
+        <link>https://elpais.com/</link>
+        <description>Es un periodico digital con muchas noticias de todo el mundo</description>
+        <item>
+            <title>El sistema para agilizar las altas de enfermos por covid alivia a la patronal e inquieta a los sindicatos</title>
+            <link>https://elpais.com/economia/2022-01-13/el-sistema-para-agilizar-las-altas-de-enfermos-por-covid-alivia-a-la-patronal-e-inquieta-a-los-sindicatos.html</link>
+            <description>Los sindicatos exigen que se garantice una vuelta trabajo segura tras pasar la enfermedad</description>
+            <guid isPermaLink="true">https://elpais.com/economia/2022-01-13/el-sistema-para-agilizar-las-altas-de-enfermos-por-covid-alivia-a-la-patronal-e-inquieta-a-los-sindicatos.html</guid>
+            <![CDATA[<a><img src="meme.jpg"></a>]]>
+            <pubDate>2022/01/10 10:30:45</pubDate>
+            <author>Toast</author>
+        </item>
+        <item>
+            <title>Montañas de basura cercan a los 32.000 vecinos de Salt </title>
+            <link>https://elpais.com/espana/catalunya/2022-01-13/montanas-de-basura-cercan-a-los-32000-vecinos-de-salt.html</link>
+            <description>Tras 20 días de huelga de operarios de los residuos, la situación en el municipio de Girona es cada vez más insostenible </description>
+            <guid isPermaLink="true">https://elpais.com/espana/catalunya/2022-01-13/montanas-de-basura-cercan-a-los-32000-vecinos-de-salt.html</guid>
+            <![CDATA[<a><img src="gustabo.jpg"></a>]]>
+            <enclosure url="https://www.w3schools.com/xml/3d.wmv" length="78645" type="video/wmv"/>
+            <pubDate>2022/01/17 15:45:10</pubDate>
+            <author>Toast</author>
+        </item>
+        
+    </channel>
+</rss>

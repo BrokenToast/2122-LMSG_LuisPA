@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ES">
+	<head lang="ES" >
+		<meta charset="utf-8"/>
+		<meta name="description" content="Es una pagina para hacer pedidos de macarrones indios">
+		<meta name="author" content="KingToast">
+		<meta name="Keywords" content="pedido,macarrones,indios">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="robots" content="index,follow">
+		<title>HTML 03 Luis Pérez Astorga</title>
+		<link rel="icon" type="image/x-icon" href="../1636050362.ico">
+		<style>
+			#tip p{
+			display:inline;
+			}
+			main{
+				
+				align-items: center;				
+				text-align: left;
+				width: 160px;
+				height: 100px;                                             
+			}
+			fieldset{
+				background-color: #FA5882;
+			}
+			body{
+				margin-left: 500px;
+				background-color: #DBA901;
+				font-family: Arial;
+			}
+			#buscad{
+				background-color: #FF4000;
+				border-radius: 50px;
+				border-color: black;
+				margin-left: 200px;
+			}
+			#userr{
+				border-color: aqua;
+				margin-left: 400px;
+			}
+			#pedidos{
+				border-radius: 50px;
+				border-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Plantilla de formulario de Macarrones Indios</h1>
+		</header>
+		
+		<main>
+				<form action="login.php" method="GET" >
+					<fieldset id="buscad">
+					<label for="busca">Buscar un apartado<input type="search" id="busca"></label>
+					</fieldset>	
+				</form>
+			
+			<form action="login.phph" method="GET">
+				<Fieldset id="userr">
+					<legend>Login User</legend>
+					<p><label for="email">Correo<input type="email" maxlength="40" minlength="20" required size="30" multiple pattern="" id="email" aria-required="true"></label></p>
+					<p><label for="contra">Contraseña<input type="password" id="contra" required></label></p>
+					<input type="button" value="Entrar" name="entrar">
+				</Fieldset>
+			</form>
+			<form action="info.php" method="GET" id="pedidos">
+				<fieldset>
+					<legend>Pedido</legend>
+					<fieldset id="tip">
+						<legend>Tipo de macarrones</legend>
+						<p><label for="espi"><input type="radio" name="tipmacarron" id="espi">Espinacas</label></p>
+						<p><label for="zana"><input type="radio" name="tipmacarron" id="zana">Zanahoria</label></p> 
+						<p><label for="calabacin"><input type="radio" name="tipmacarron" id="calabacin">Calabacín</label></p> 
+						<p><label for="pimi"><input type="radio" name="tipmacarron" id="pimi">Pimiento</label></p> 
+						<p><label for="calabaza"><input type="radio" name="tipmacarron" id="calabaza">Calabaza</label></p> 
+						<p><label for="normal"><input type="radio" name="tipmacarron" id="normal">Normal</label></p>
+					</fieldset>
+					<fieldset>
+						<legend>Seleccion de queso</legend>
+						<label for="gou" ><input type="checkbox" name="gouda" id="gou" checked>Gouda</label>
+						<label for="edam" ><input type="checkbox" name="edam" id="edam">Edam</label>
+						<label for="massdam" ><input type="checkbox" name="massdam" id="massdam">Massdam</label>
+						<label for="brie" ><input type="checkbox" name="brie" id="brie">Brie</label>
+						<label for="gruyere" ><input type="checkbox" name="gruyere" id="gruyere">Gruyére</label>
+						<label for="cheddar" ><input type="checkbox" name="cheddar" id="cheddar">Cheddar</label>
+						<label for="parmesano" ><input type="checkbox" name="Parmesano" id="parmesano">Parmesano</label>
+					</fieldset>
+					<fieldset>
+						<legend>Especias y Salsa</legend>
+						<label for="especias">Selecciona las especias:</label>
+						<select name="especias" id="especias" multiple>
+							<option value="oregano">Oregano</option>
+							<option value="pimienta negra">Pimienta negra</option>
+							<option value="pimienta blanca">Pimienta blanca</option>
+							<option value="ajo">Ajo</option>
+							<option value="ninguna">Ninguna</option>
+						</select>
+						<label for="salsai">Selecciona la salsa:<input list="salsa" name="salsa" id="salsai"></label>
+						<datalist id="salsa">
+							<option value="tomate">Tomate</option>
+							<option value="salsa_picanta">Salsa picanta</option>
+							<option value="salsa_de_miel">Salsa de miel</option>
+							<option value="salsa_de_yogur">Salsa de yogur</option>
+							<option value="nata">Nata</option>
+							<option value="ninguna">Ninguna</option>
+						</datalist>
+					</fieldset>
+					<fieldset>
+						<legend>Otros cosas que se pueden añadir</legend>
+						<label for="extra1">Extras:</label>
+						<select  name="extra1" id="extra1">
+							<option value="Jamon">Jamon</option>
+							<option value="pimiento">Pimiento</option>
+							<option value="carne_picada">Carne picada</option>
+							<option value="soja">Soja</option>
+							<option value="chorizo">Chorizo</option>
+							<option value="judias">Judias</option>
+							<option value="ninguna">Nungina</option>
+						</select>
+						<br>
+						<label for="color">Color de los macarrones: <input type="color" id="color"></label>
+					</fieldset>
+					<fieldset>
+						<legend>Cantidad</legend>
+						<label for="cant">Cantidad de platos:<input type="number" name="cantidad" min="1" max="10" id="cant"></label>
+					</fieldset>
+					<fieldset>
+						<legend>Direcion y Numero de conta</legend>
+						<p><label for="direcion">Dirección:<input type="text"  name="direcion" id="direcion" size="30" maxlength="50" minlength="20" required></label></p>
+						<label for="provincia">Provincia:<input type="text" name="provincia" id="provincia" maxlength="10" minlength="20" required></label>
+						<label for="ciudad">Ciudad: <input type="text" name="ciudad" id="ciudad" maxlength="10" minlength="20" required></label>
+						<p><label for="tel">Telefono:<input type="tel" name="Telefono" id="tel" pattern="\[+][0-9]{3}\ [0-9]{3}[ ][0-9]{3}[ ][0-9]{3}" required></label></p>
+						<p>EL formato del telefono tiene que se +34 777 78 78 48</p>
+						<p><label for="Hora">Hora de entrega: </label><input type="time" name="Hora" id="Hora" max="21:30" min="15:00" value="15:15" step="60"></p>
+						<label for="dia">Dia de la entrega: <input type="date" id="dia" max="2100-12-29" value="2021-11-04"></label>
+					</fieldset>
+					<fieldset>
+						<legend>Valoración</legend>
+						<p><label for="valo">Valoracion:<input type="range" name="valora" id="valo" min="0" max="10"></label></p>
+						<p>Comentario:</p>
+						<p><textarea name="Opinion" rows="10" cols="60" placeholder="Escribe tu opinion de los macarrones o del servicios ofrecido"></textarea></p>
+						<p><label for="recla">Insertar hoja de reclamaciones:<input type="file" name="recla" id="recla"></label></p>
+						<p><label for="comgo">Introduce la url del comentario de google:<input type="url" id="comgo"></label></p>
+						<p><label for="fechcom">Introduce el mes y el año de cuando hicistes el pedido:<input type="month" id="fechcom"></label></p>
+					</fieldset>
+					<input type="image" src="Macarrones.png" alt="Hola">
+					<input type="reset">
+				</fieldset>
+			</form>
+		</main>
+		<footer>
+			<p hidden>Pagina echa por toast</p>
+		</footer>
+	</body>
+</html>

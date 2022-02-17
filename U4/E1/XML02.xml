@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+<!DOCTYPE world[
+    <!ELEMENT world (fila+)>
+    <!ELEMENT fila (continente,pais,capital)>
+    <!ELEMENT continente (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT capital (#PCDATA)>
+]>
+-->
+<world xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='schema02.xsd'>
+    <fila>
+        <continente>
+            europa
+        </continente>
+        <pais>
+            alemania
+        </pais>
+        <capital>
+            Berlin
+        </capital>
+    </fila>
+    <fila>
+        <continente>
+            america
+        </continente>
+        <pais>
+            argentina
+        </pais>
+        <capital>
+            Buenos Aires
+        </capital>
+    </fila>
+    <fila>
+        <continente>
+            America
+        </continente>
+        <pais>
+            Bahamas
+        </pais>
+        <capital>
+            Nassau
+        </capital>
+    </fila>
+    <fila>
+        <continente>
+            Asia
+        </continente>
+        <pais>
+            Afganistan
+        </pais>
+        <capital>
+            Kabul
+        </capital>
+    </fila>
+    <fila>
+        <continente>
+            e
+        </continente>
+        <pais>
+            alemania
+        </pais>
+        <capital>
+            Berlin
+        </capital>
+    </fila>
+</world>

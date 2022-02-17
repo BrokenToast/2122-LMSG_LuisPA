@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+<!DOCTYPE ejemplos[
+    <!ELEMENT ejemplos (ejemplo+)>
+    <!ELEMENT ejemplo (tipo,codigo)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT codigo (#PCDATA)>
+]>
+-->
+<?xml-stylesheet type="text/css" href="estilo.css" ?>
+<ejemplos xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='schema06.xsd'>
+    <ejemplo>
+        <tipo>Java</tipo>
+        <codigo>
+            class HelloWorld{
+                public static void main(String args[]){
+                    System.out.println("Hola Mundo");
+                }
+            }
+        </codigo>
+    </ejemplo>
+    <ejemplo>
+        <tipo>HTML</tipo>
+        <codigo>
+            <![CDATA[
+                <HTML>
+                <HEAD>
+                <TITLE>ejemplo hola mundo</TITLE>
+                </HEAD>
+                <BODY>
+                <P>Hola Mundo</P>
+                </BODY>
+                </HTML>
+            ]]>
+        </codigo>
+    </ejemplo>
+</ejemplos>

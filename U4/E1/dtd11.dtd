@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT receta (nombre,descripcion?,tiempo,ingredientes,instruciones)>
+    <!ATTLIST receta plato CDATA #REQUIRED>
+    <!ATTLIST receta xmlns:xsi CDATA #IMPLIED
+                        xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT tiempo (#PCDATA)>
+    <!ATTLIST tiempo preparacion CDATA #REQUIRED>
+    <!ATTLIST tiempo coccion CDATA #IMPLIED>
+<!ELEMENT ingredientes (ingrediente+)>
+<!ELEMENT ingrediente (nombre,cantidad?)>
+<!ELEMENT cantidad (#PCDATA)>
+    <!ATTLIST cantidad unidad CDATA #REQUIRED>
+<!ELEMENT instruciones (paso+)>
+    <!ELEMENT paso (#PCDATA)>

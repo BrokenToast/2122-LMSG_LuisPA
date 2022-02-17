@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE prediccion SYSTEM "dtd10.dtd">
+
+<prediccion xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='schema10.xsd'>
+    <municipios>
+        <dias fecha="2022-02-09">
+            <prob_precipitacion>10</prob_precipitacion>
+            <estado_cielo descripcion="Cielos despejado">50</estado_cielo>
+            <viento>
+                <direccion>Norte</direccion>
+                <velocidad>40</velocidad>
+            </viento>
+            <temperatura>
+                <maxima>17</maxima>
+                <minima>-3</minima>
+            </temperatura>
+        </dias>
+    </municipios>
+</prediccion>

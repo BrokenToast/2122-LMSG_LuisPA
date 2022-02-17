@@ -1,0 +1,133 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 nov. 2021, 11:44:06
+    Author     : kingtoast
+*/
+@font-face{
+    font-family: 'IndieFlower';
+    src : url('../Font/IndieFLower.ttf');
+}
+@font-face{
+    font-family: 'ComforterBrush';
+    src : url('../Font/ComforterBrush.ttf');
+}
+@font-face{
+    font-family: 'Inconsolata';
+    src : url('../Font/Inconsolata.ttf');
+}
+@font-face{
+    font-family: 'BebasNeue';
+    src : url('../Font/BebasNeue.ttf');
+}
+@font-face{
+    font-family: 'Roboto-Black';
+    src : url('../Font/Roboto-Black.ttf');
+}
+
+a{
+   text-decoration: none;
+   color: black;
+   font-size: 100px;
+   padding: 40px
+}
+.logo-1{
+    font-family: 'IndieFlower';
+    color: #FFFFFF;
+    text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
+}
+.logo-2{
+    font-family: 'ComforterBrush';
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+.logo-3{
+     font-family: 'Inconsolata';
+     text-shadow: -1px 60px 5px #52D06B;
+     box-shadow: -1px 60px 5px #EAF03D;
+     background-color: #C6CB37;
+     color:green;
+}
+.logo-4{
+    font-family: 'BebasNeue';
+    color: #FFFFFF;
+    text-shadow: 6px 1px 0px #575757;
+}
+.logo-1 span:nth-child(1){
+    color:red;
+}
+.logo-1 span:nth-child(2){
+    color:green;
+}
+.logo-1 span:nth-child(3){
+    color:orange;
+}
+.logo-2 span:nth-child(1){
+    color:blue;
+}
+.logo-2 span:nth-child(2){
+    color:yellow;
+}
+.logo-2 span:nth-child(3){
+    color:yellowgreen;
+}
+.logo-4 span:nth-child(1){
+    color:red;
+}
+.logo-4 span:nth-child(2){
+    color:red;
+}
+.logo-4 span:nth-child(3){
+    color:red;
+}
+
+.content{
+    width: 100%;
+    max-width: 600px;
+    padding: 25px 60px 10px 50px;
+    border-top: dashed red 1px;
+    border-bottom: dashed green 1px;
+    border-left: dotted orange 1px;
+    border-right: dotted red 1px;
+    margin: 0 auto;
+    margin-top: 100px
+}
+.content div{
+    width: 30%;
+    max-width: 300px;
+    padding: 25px 10px;
+    border: 2px solid red;
+    margin: 40px 0px 40px 0px;
+}
+.content div:nth-child(even){
+    margin: 0 auto;
+}
+.content div:nth-child(odd){
+    text-align: center;
+}
+.content div:nth-child(1){
+    font-family:'Verdan', sans-serif;
+}
+.content div:nth-child(2){
+    font-family:'Didot', serif;
+}
+.content div:nth-child(3){
+    font-family:'Freemono', monospace;
+}
+.content div:nth-child(4){
+    font-family:'Roboto', sans-serif;
+}
+.content div:nth-child(5){
+    font-family:'Akronim',cursive;
+    font-size: 24px;
+}
+.content div:nth-child(6){
+    font-family:'Akronim',cursive;
+    font-size: 24px;
+}
+footer{
+   text-align: center;
+}
